@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  balance: 9.99
+  deferred: 9.99
+  available: 9.99
+  code: 1
+  code_expires: 2019-01-20 19:13:47
+
+two:
+  balance: 9.99
+  deferred: 9.99
+  available: 9.99
+  code: 1
+  code_expires: 2019-01-20 19:13:47

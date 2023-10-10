@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  quantity: 1
+  price_init: 9.99
+  price_end: 9.99
+  checked: false
+  tabulator: one
+  service_orden: one
+
+two:
+  quantity: 1
+  price_init: 9.99
+  price_end: 9.99
+  checked: false
+  tabulator: two
+  service_orden: two

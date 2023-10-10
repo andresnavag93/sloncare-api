@@ -1,0 +1,368 @@
+en:
+  hello: "Hello world"
+  model_mailer:
+    token: "Click in the next link:"
+    request:
+      subject: "Contact request from"
+      name: "Name:"
+      text: "Message: "
+    statistic:
+      update: "For your performance in Slon Care, you reached level:"
+      downgrade: "Due your low performance in Slon Care, you descende to level:"
+      subject: "Congratulations, you have reached a new level of savings"
+      fail: "Adjust of savings level"
+    saving_level:
+      level1: "Bronze"
+      level2: "Silver"
+      level3: "Gold"
+      level4: "Platinum"
+      level5: "Black"
+    plan:
+      unipersonal: "Individual"
+      familiar: "Familiar"
+      corp: "Corp"
+    welcome:
+      welcome_doctor: "Welcome to Slon Care"
+      welcome_clinic: "Welcome to Slon Care Clinic"
+      welcome_beneficiary: "Welcome to Slon Care Beneficiary"
+      message: "System Login Information:"
+      id_wallet: "Contract ID:"
+      personal_wallet: "Personal Contract ID:"
+      password: "Password:"
+      user: "User:"
+      email: "Email:"
+      type: "Type:"
+      plan: "Plan:"
+      saving_level: "Savings Level:"
+      montly_cost: "Monthly Cost:"
+      welcome_contractor: "Welcome to Slon Care Contractor"
+      group_id_wallet: "Group Contract ID:"
+      familiar_name_group: "Familiar Group"
+      corp_name_group: "Corporative Group"
+      admin: "Account Administrator:"
+      admin2: "Account Administrator 2:"
+      group_information: "Group Information:"
+      group_name: "You can see the group information in your Slon Care account"
+      congratulations: "Congratulations beneficiary"
+      info_2: ", you were add to a new group"
+    purchase:
+      subject: "Congratulations, You have bought a new Sloncard"
+      amount: "Amount:"
+      code: "Sloncard Code:"
+      login: "Click here to link Slon Care web page:"
+    transaction:
+      recharge_sloncard: "Sloncard Recharge"
+      recharge_monthly: "Monthly Recharge"
+      fee_recharge: "Payment Gateway Fee"
+      service_order: "Processed Service Order #"
+      beneficiary_wallet: ", Beneficiary Wallet ID #"
+      fee_service_order: "Fee: Close Service Order #"
+      withdraw: "Money Withdraw"
+      fee_withdraw: "Money Withdraw Fee"
+      fee_maintenance: "Monthly Maintenance Fee"
+      transfer: "Money Transfer"
+      subject: "Congratulations, Your debit payments was proccessed correctly"
+      fail: "Your debit payments wasn't proccessed correctly"
+      buy_sloncard: "Buy With CreditCard"
+      buy_with_paypal: "Buy With Paypal"
+      beneficiary_count: "Number of Beneficiaries:"
+      amount: "Savings Amount:"
+      total: "Total:"
+    recharge:
+      subject: "Recharge with successful Sloncard"
+      amount: "Total Deposit Founds:"
+    recovery:
+      subject: "Slon Care password recovery link"
+    recovery_success:
+      subject: "Sloncare password change successfully"
+      message: "Your password has been changed satisfactorily."
+    new_order:
+      subject: "Service request sent"
+      message: "Your order was successfully sent."
+    code:
+      subject: "Service order code sent"
+      code: "Verification Code:"
+    service_tabulator:
+      subject: "Services Prices Updates"
+      service: "Type of Service"
+      update: "Updates"
+      not_found: "Not Founds"
+  statisic:
+    individual: "Individual"
+    familiar: "Familiar"
+    corp: "Corp"
+    beneficiary: "Beneficiary"
+    doctor: "Doctor"
+    clinic: "Clinic"
+    provider: "Provider"
+    group: "Group"
+    active: "Active"
+    no_active: "Not active"
+    s1: "Customer Service"
+    s2: "Slon Cards"
+    s3: "Subscription / user activation"
+    s4: "Service orders"
+    s5: "E-Wallet (Account)"
+    s6: "Transfers"
+    s7: "Website"
+    os1: "Consultation"
+    os2: "Diagnostic Study"
+    os3: "Ambulatory Treatment"
+    os4: "Minor Surgery"
+    os5: "Provider"
+    os6: "Admission to Clinic"
+    f1: "Payment Gateway"
+    f2: "Close Service Order"
+    f3: "Monthly Maintenance"
+    f4: "Wallet to Wallet"
+    f5: "Wallet to Fiduciary"
+    p1: "Stripe"
+    p2: "Paypal"
+  custom_errors:
+    global:
+      1: "Savings amount with negative values or null"
+      2: "Only numbers in cellphones and localphones"
+      3: "Enter a current appointment date that does not exceed 30 days"
+      4: "Enter a current appointment date that does not exceed 30 days of the creation date of the order"
+      5: Affiliation of payment or purchase of sloncard with credit card not processed.
+      6: Invalid payment_id attribute
+      7: Incorrect paypal confirmation.
+      8: The amount of transaction provided is different from the purchase made with Paypal
+      9: "Enter a current income date that does not exceed 30 days"
+      10: The group wallet has disabled making requests of this type.
+      11: ""
+      12: ""
+      13: ""
+      14: ""
+      15: ""
+      16: ""
+      17: ""
+      18: ""
+      19: ""
+      20: Error loading profile picture # or base64 field not found
+      21: Profile photo extension not allowed only JPG, JPEG or PNG.
+      22: Incorrect image format is required type base64.
+      23: Syntax error in the specialty array
+      24: There are specialties supplied that do not exist in the system.
+      25: Syntax error in the clinics entered by the doctor.
+      26: There are registered clinics that do not exist in the system.
+      27: Error loading the photo of the director # or base64 field not found
+      28: Director's photo extension not allowed only JPG, JPEG or PNG.
+      29: Error loading photo of ministry permit # or base64 field not found
+      30: Photo extension of ministry permit not allowed only JPG, JPEG or PNG.
+      31: Invalid sloncard code
+      32: The sloncard code has already been exchanged
+      33: ""
+      34: ""
+      35: ""
+      36: ""
+      37: ""
+      38: ""
+      39: "Syntax error in the protocol array"
+      40: ""
+      41: "Invalid credentials."
+      42: "Invalid credentials. Remember that you have 3 attempts to enter the system."
+      43: "Invalid or incorrect token"
+      44: "The user is not authenticated"
+      45: "You can not have more than one active session at the same time"
+      46: "Insufficient permits"
+      47: "Invalid security responses"
+      48: "The supplied passwords do not match each other"
+      49: "All protocols must exist"
+      50: "Problems updating a card"
+      51: "Problems to eliminate"
+      52: "The supplied group does not exist in the system"
+      53: "The beneficiary already exists in the database"
+      54: "No more beneficiaries can be added to the group"
+      55: "The beneficiary already exists in the group"
+      56: "The beneficiary does not exist in the group"
+      57: "The emails of both administrators must be different"
+      58: "You do not have enough funds to issue the order"
+      59: "Errors in the tabulators"
+      60: "Type of service missing or non-existent"
+      61: "Missing or nonexistent specialty"
+      62: "Beneficiary_id attribute invalidated"
+      63: "Invalid provider_id attribute"
+      64: "The beneficiary can not approve an order that has not been verified by the supplier"
+      65: "Empty order without price"
+      66: "An order caused can not be canceled"
+      67: "Unable to cause a canceled order"
+      68: ""
+      69: ""
+      70: "The arrangement of suppliers or items can not be empty"
+      71: "Providers or tabulators do not exist"
+      72: ""
+      73: "They are not authorized to view orders"
+      74: "The user entered not exists or is not a beneficiary"
+      75: "Incorrect verification code"
+      76: "Expired verification code"
+      77: "Insufficient balance"
+      78: ""
+      79: "Number of attempts exceeded, wait approximately 10 minutes to try again"
+      80: "Incorrect access type for system administrators"
+      81: "The mail or csv file not found"
+      82: "The csv file can not be opened"
+      83: ""
+      84: "The requested wallet_id does not belong to any group or beneficiary"
+      85: "You have not indicated an amount to withdraw"
+      86: "Services requested do not correspond with the specialty"
+      87: "You can not access information that does not belong to you"
+      88: The purchase made with Paypal has already been registered.
+      89: "The beneficiary does not exist in the system"
+      90: "Errors in the specific item records"
+      91: "The id of the order does not correspond to the one of the item"
+      92: "Error uptading the services"
+      93: "You can not modify super admin information"
+      94: "Provider not found"
+      95: "Inactive user"
+      96: "Forbidden date for statistic"
+      97: "Not found"
+      98: "Session time expired"
+      99: "You can delete yourself"
+    user:
+      locale: "Invalid locale_id attribute"
+      plan: "Invalid plan_id attribute"
+      saving_level: "Invalid saving_level_id attribute"
+      sq_1: "Invalid sq_1_id attribute"
+      sq_2: "Invalid sq_2_id attribute"
+      blood_type: "Invalid blood_type_id attribute"
+      weight_unit: "Attribute weight_unit_id invalid"
+      size_unit: "Invalid size_unit_id attribute"
+      race: "Invalid gender_id attribute"
+      gender: "Invalid race_id attribute"
+    doctor:
+      specialty: "The subspecialty does not belong to the specialty provided"
+      specialty_errors: "Specialty or subspecialty id not found"
+    doctor_clinic:
+      1: The fields of doctor_id or clinic_id can not be null
+      2: The doctor_id supplied does not have access to Doctor
+      3: The clinic_id supplied does not have Clinical access
+    group:
+      locale: "Invalid locale_id attribute"
+      plan: "Invalid plan_id attribute"
+      saving_level: "Invalid saving_level_id attribute"
+    group_admin:
+      1: The fields of group_id or admin_id can not be null
+      2: The supplied admin_id does not have Group Administrator access
+    group_beneficiary:
+      1: The fields of group_id or beneficiary_id can not be null
+      2: The beneficiary_id supplied does not have Beneficiary access
+    location:
+      1: The foreign key can not be equal to its own id
+    service_order:
+      1: "Invalid service_type_id attribute"
+      2: "Invalid beneficiary_id attribute"
+      3: "Invalid provider_id attribute"
+  activerecord:
+    errors:
+      models:
+        sponsor:  
+          attributes:
+            country:
+              required: "Invalid country_id field"
+            email:
+              uniqueness: "The supplied email already exists in the system"
+              email_format: "Incorrect email format"
+              presence: "The mail can not be empty"
+        user:
+          attributes:
+            email:
+              uniqueness: "The supplied email already exists in the system"
+              email_format: "Incorrect email format"
+              presence: "The mail can not be empty"
+            aq_1:
+              presence: "Security response 1 can not be empty"
+            aq_2:
+              presence: "Security response 2 can not be empty"
+            password:
+              presence: "The password can not be empty"
+            sq_1:
+              required: "Invalid sq_1_id attribute"
+            sq_2:
+              required: "Invalid sq_2_id attribute"
+            locale:
+              required: "Invalid locale_id attribute"
+            country:
+              required: "Invalid country_id attribute"
+            state:
+              required: "Invalid state_id attribute"
+        user_admin_one:
+          attributes:
+            email:
+              uniqueness: "El correo electrónico proporcionado para el administrador 1 ya existe en el sistema"
+              email_format: "Formato de correo del administrador 1 incorrecto"
+              presence: "El correo electrónico del administrador 1 no puede estar vacío"
+        usuario_admin_two:
+          attributes:
+            email:
+              uniqueness: "El correo electrónico proporcionado para el administrador 2 ya existe en el sistema"
+              email_format: "Formato de correo electrónico del administrador 2 incorrecto"
+              presence: "El correo del administrador 2 no puede estar vacío"
+        beneficiary:
+          attributes:
+            saving_level:
+              required: "Invalid saving_level_id attribute"
+            blood_type:
+              required: "Invalid blood_type_id attribute"
+            race:
+              required: "Invalid race_id attribute"
+            weight_unit:
+              required: "Invalid weight_unit_id attribute"
+            size_unit:
+              required: "Invalid size_unit_id attribute"
+            gender:
+              required: "Invalid gender_id attribute"
+        group:
+          attributes:
+            saving_level:
+              required: "Invalid saving_level_id attribute"
+            plan:
+              required: "Invalid plan_id attribute"
+            wallet:
+              required: "Invalid wallet_id attribute"
+            locale:
+              required: "Invalid locale_id attribute"
+            country:
+              required: "Invalid country_id attribute"
+            state:
+              required: "Invalid state_id attribute"
+        service_order:
+          attributes:
+            service_type:
+              required: "Invalid service_type_id attribute"
+            specialty:
+              required: "Invalid specialty_id attribute"
+            beneficiary:
+              required: "Invalid beneficiary_id attribute"
+            provider:
+              required: "Invalid provider_id attribute"
+        item:
+          attributes:
+            tabulator: 
+              required: "Invalid tabulator_id attribute"
+            service_order:
+              required: "Invalid service_order_id attribute"
+        article:
+          attributes:
+            locale:
+              required: "Invalid locale_id attribute"
+        subscriber:
+          attributes:
+            email:
+              uniqueness: "The supplied email already exists in the system"
+              email_format: "Incorrect email format"
+              presence: "The mail can not be empty"
+        protocol_wallet:
+          attributes:
+            wallet:
+              required: "Invalid wallet_id attribute"
+            protocol:
+              required: "Invalid protocl_id attribute"
+        specialty:
+          attributes:
+            specialty:
+              required: "Invalid specialty_id attribute"
+        transac:
+          attributes:
+            zelle:
+              email_format: "Incorrect email format"

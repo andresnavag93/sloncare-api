@@ -1,0 +1,94 @@
+<div class="color-primary">
+	<h4><b><%= t('model_mailer.welcome.group_id_wallet') %> </b></h4>
+</div>
+<div class="color-gray">
+	<p><%= @wallet.id %></p>
+</div>
+<hr></hr>
+<div class="color-primary">
+	<h4><b><%= t('model_mailer.welcome.message') %> </b></h4>
+</div>
+
+<div class="color-primary">
+	<h4><b><%= t('model_mailer.welcome.admin') %> </b></h4>
+</div>
+
+<div class="color-primary">
+	<h4><b><%= t('model_mailer.welcome.user') %></b></h4>
+</div> 
+<div class="color-gray">
+	<p><%= @admin.email %> </p>
+</div>
+<div class="color-primary">
+	<h4><b><%= t('model_mailer.welcome.password') %> </b></h4>
+</div>
+<div class="color-gray">
+	<p><%= @password %></p>
+</div>
+
+<% if @admin2 != nil%>
+<hr></hr>
+<div class="color-primary">
+	<h4><b><%= t('model_mailer.welcome.email') %></b></h4>
+</div> 
+<div class="color-gray">
+	<p><%= @admin2.email %> </p>
+</div>
+<div class="color-primary">
+	<h4><b><%= t('model_mailer.welcome.admin2') %> </b></h4>
+</div>
+<div class="color-primary">
+	<h4><b><%= t('model_mailer.welcome.password') %> </b></h4>
+</div>
+<div class="color-gray">
+	<p><%= @password2 %></p>
+</div>
+<% end %>
+
+<hr></hr>
+<div class="color-primary">
+	<h4><b><%= t('model_mailer.welcome.group_information') %> </b></h4>
+</div>
+
+<div class="color-primary">
+	<h4><b><%= t('model_mailer.welcome.plan') %></b></h4>
+</div> 
+<div class="color-gray">
+	<%if @plan.id == 31 %>
+		<p><%= t('model_mailer.plan.corp') %></p>
+	<%else%>
+		<p><%= t('model_mailer.plan.familiar') %></p>
+	<% end %>
+</div>
+
+<div class="color-primary">
+	<h4><b><%= t('model_mailer.welcome.saving_level') %></b></h4>
+</div>
+
+<% if @saving_level.id == 43 %> 
+	<div class="color-gray">
+		<p><%= t('model_mailer.saving_level.level1') %></p>
+	</div>
+<% elsif @saving_level.id == 44 %> 
+	<div class="color-gray">
+		<p><%= t('model_mailer.saving_level.level2') %></p>
+	</div>
+<% elsif @saving_level.id == 45 %>
+	<div class="color-gray">
+		<p><%= t('model_mailer.saving_level.level3') %></p>
+	</div>
+<% elsif @saving_level.id == 46 %>
+	<div class="color-gray">
+		<p><%= t('model_mailer.saving_level.level4') %></p>
+	</div>
+<% elsif @saving_level.id == 47 %>
+	<div class="color-gray">
+		<p><%= t('model_mailer.saving_level.level5') %></p>
+	</div>
+<% end %>
+<div class="color-primary">
+	<h4><b><%= t('model_mailer.welcome.montly_cost') %></b></h4>
+</div> 
+<div class="color-gray">
+	<p>$<%= @group.savings %></p>
+</div>

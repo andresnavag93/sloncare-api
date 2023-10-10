@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  orden: one
+  name: MyString
+  image: MyString
+
+two:
+  orden: two
+  name: MyString
+  image: MyString

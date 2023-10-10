@@ -1,0 +1,37 @@
+<div class="color-primary">
+	<h4><b><%= t('model_mailer.welcome.id_wallet') %> </b></h4>
+</div>
+<div class="color-gray">
+	<p><%= @wallet.id %></p>
+</div>
+<% if @count %>
+	<% if @succeed %>
+		<div class="color-primary">
+			<h4><b><%= t('model_mailer.transaction.beneficiary_count') %></b></h4>
+		</div>
+		<div class="color-gray">
+			<p> <%= @count %></p>
+		</div>
+		<div class="color-primary">
+			<h4><b><%= t('model_mailer.transaction.amount') %></b></h4>
+		</div>
+		<div class="color-gray">
+			<p>$<%= @amount %></p>
+		</div>
+		<div class="color-primary">
+			<h4><b><%= t('model_mailer.recharge.amount') %></b></h4>
+		</div>
+		<div class="color-gray">
+			<p>$<%= @count*@amount %></p>
+		</div>
+	<% end %>
+<% else %>
+	<% if @succeed %>
+		<div class="color-primary">
+			<h4><b><%= t('model_mailer.recharge.amount') %></b></h4>
+		</div>
+		<div class="color-gray">
+			<p>$<%= @amount %></p>
+		</div>
+	<% end %>
+<%end %>

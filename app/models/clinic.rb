@@ -1,0 +1,2 @@
+class Clinic < User
+end

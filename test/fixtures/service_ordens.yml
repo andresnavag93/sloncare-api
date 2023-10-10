@@ -1,0 +1,73 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  service_type: one
+  specialty: one
+  status: one
+  priority: one
+  country: one
+  state: one
+  city: one
+  beneficiary: one
+  o_created_at: 2019-02-15 14:22:17
+  o_updated_at: 2019-02-15 14:22:17
+  o_possible_appointment_date: 2019-02-15
+  o_appointment_date: 2019-02-15
+  provider: one
+  verification_code: 1
+  code_expires: 2019-02-15 14:22:17
+  reason_for_admission: MyString
+  symptom: MyText
+  total_suggested: 9.99
+  total: 9.99
+  observations: MyText
+  income: one
+  livelihood: false
+  assigned_area: one
+  room_number: 1
+  recipe: MyText
+  indications: MyText
+  recipe_comments: MyText
+  indications_comments: MyText
+  medical_report: MyText
+  diagnosis: MyText
+  evolutionary_report: MyText
+  high_id: one
+  egress_report: MyText
+  egress_date: 2019-02-15 14:22:17
+
+two:
+  service_type: two
+  specialty: two
+  status: two
+  priority: two
+  country: two
+  state: two
+  city: two
+  beneficiary: two
+  o_created_at: 2019-02-15 14:22:17
+  o_updated_at: 2019-02-15 14:22:17
+  o_possible_appointment_date: 2019-02-15
+  o_appointment_date: 2019-02-15
+  provider: two
+  verification_code: 1
+  code_expires: 2019-02-15 14:22:17
+  reason_for_admission: MyString
+  symptom: MyText
+  total_suggested: 9.99
+  total: 9.99
+  observations: MyText
+  income: two
+  livelihood: false
+  assigned_area: two
+  room_number: 1
+  recipe: MyText
+  indications: MyText
+  recipe_comments: MyText
+  indications_comments: MyText
+  medical_report: MyText
+  diagnosis: MyText
+  evolutionary_report: MyText
+  high_id: two
+  egress_report: MyText
+  egress_date: 2019-02-15 14:22:17

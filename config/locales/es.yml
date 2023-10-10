@@ -1,0 +1,368 @@
+es:
+  hello: "Hola Mundo"
+  model_mailer:
+    token: "Haz click en el siguiente enlace:"
+    request:
+      subject: "Solicitud de Contacto de"
+      name: "Nombre:"
+      text: "Mensaje:"
+    statistic:
+      upgrade: "Por tu rendimiento en Slon Care, haz alcanzado el nivel:"
+      downgrade: "Por tu bajo rendimiento en Slon Care, haz descendido al nivel:"
+      subject: "Felicitaciones, haz alcanzado un nuevo nivel de ahorro"
+      fail: "Ajuste de nivel de ahorro"
+    saving_level:
+      level1: "Bronce"
+      level2: "Plata"
+      level3: "Oro"
+      level4: "Platino"
+      level5: "Black"
+    plan:
+      unipersonal: "Individual"
+      familiar: "Familiar"
+      corp: "Corporativo"
+    welcome:
+      welcome_doctor: "Bienvenido a Slon Care"
+      welcome_clinic: "Bienvenido a Slon Care Clínica"
+      welcome_beneficiary: "Bienvenido a Slon Care Beneficiario"
+      message: "Datos para Ingresar al Sistema:"
+      id_wallet: "Número de Contrato:"
+      personal_id_wallet: "Número de Contrato Personal:"
+      password: "Contraseña:"
+      user: "Usuario:"
+      email: "Correo:"
+      type: "Tipo:"
+      plan: "Plan:"
+      saving_level: "Nivel de Ahorro:"
+      montly_cost: "Costo Mensual:"
+      welcome_contractor: "Bienvenido Contratante a Slon Care"
+      group_id_wallet: "Número de Contrato del Grupo:"
+      familiar_name_group: "Grupo Familiar"
+      corp_name_group: "Grupo Corporativo"
+      admin: "Cuenta de Administrador:"
+      admin2: "Cuenta de Administrador 2:"
+      group_information: "Información de Grupo:"
+      group_name: "Puedes ver la Información del grupo en tu cuenta de Slon Care:"
+      congratulations: "Felicitaciones Beneficiario"
+      info_2: ", fuiste agregado a un nuevo grupo"
+    purchase:
+      subject: "Felicitaciones, compraste una nueva Sloncard"
+      amount: "Monto:"
+      code: "Código Sloncard:"
+      login: "Enlace para ingresar en Slon Care:"
+    transaction:
+      recharge_sloncard: "Recarga con Sloncard"
+      recharge_monthly: "Recarga Mensual"
+      fee_recharge: "Comisión Pasarela de Pago"
+      service_order: "Orden de Servicio Procesada #"
+      beneficiary_wallet: ", Wallet ID Beneficiario #"
+      fee_service_order: "Comisión Cierre de Orden de Servicio #"
+      withdraw: "Retiro de Dinero"
+      fee_withdraw: "Comisión Retiro de Dinero"
+      fee_maintenance: "Comisión Mantenimiento Mensual"
+      transfer: "Transferencia de Dinero"
+      subject: "Felicitaciones, Su pago domicilado fue realizado con éxito"
+      fail: "No se pudo procesar su pago mensual"
+      buy_sloncard: "Compra Con Tarjeta de Crédito"
+      buy_with_paypal: "Compra con Paypal"
+      beneficiary_count: "Número de Beneficiarios:"
+      amount: "Cantidad de ahorro:"
+      total: "Total:"
+    recharge:
+      subject: "Recarga con Sloncard exitosa"
+      amount: "Cantidad total recargada:"
+    recovery:
+      subject: "Enlace para recuperar contraseña de Sloncare"
+    recovery_success:
+      subject: "Contraseña cambiada satisfactoriamente"
+      message: "Su contraseña ha sido cambiada de manera satisfactoria."
+    new_order:
+      subject: "Solicitud de Servicio Enviada"
+      message: "Tu solicitud de servicio se envió satisfactoriamente."
+    code:
+      subject: "Código verificación de orden de servicio enviada"
+      code: "Código de verificación:"
+    service_tabulator:
+      subject: "Actualización de Precio de Servicios"
+      service: "Tipo de Servicio"
+      update: "Actualizados"
+      not_found: "No encontrados"
+  statisic:
+    individual: "Individual"
+    familiar: "Familiar"
+    corp: "Corporativo"
+    beneficiary: "Beneficiario"
+    doctor: "Doctor"
+    clinic: "Clinica"
+    provider: "Proveedor"
+    group: "Grupo"
+    active: "Activas"
+    no_active: "No activas"
+    s1: "Atención al Cliente"
+    s2: "Slon Cards"
+    s3: "Suscripción/activación de usuario"
+    s4: "Ordenes de servicio"
+    s5: "E-Wallet (Cuenta)"
+    s6: "Transferencias"
+    s7: "Página web"
+    os1: "Consulta"
+    os2: "Estudio Diagnóstico"
+    os3: "Tratamiento Ambulatorio"
+    os4: "Cirugía Menor"
+    os5: "Proveedor"
+    os6: "Ingreso a Clínica"  
+    f1: "Pasarela de Pago"
+    f2: "Cierre Orden de Servicio"
+    f3: "Mantenimiento Mensual"
+    f4: "Wallet a Wallet"
+    f5: "Wallet a Fiduciario" 
+    p1: "Stripe"
+    p2: "Paypal"
+  custom_errors:
+    global:
+      1: "Cantidad de ahorro nula o con valores negativos"
+      2: "Ingrese solo números en cualquier campo de teléfonos"
+      3: "Ingresa una fecha de cita actual que no exceda los 30 días"
+      4: "Ingresa una fecha de cita actual que no exceda los 30 días de la fecha creación de la orden"
+      5: Afiliación de pago o compra de sloncard con tarjeta crédito no procesada.
+      6: Atributo payment_id inválido
+      7: La confirmación de paypal es incorrecta.
+      8: El monto de la transacción suministrada es distinta a la compra efectuada con Paypal.
+      9: "Ingresa una fecha de ingreso actual que no exceda los 30 días"
+      10: El wallet del grupo tiene deshabilitado realizar solicitudes de este tipo.
+      11: ""
+      12: ""
+      13: ""
+      14: ""
+      15: ""
+      16: ""
+      17: ""
+      18: ""
+      19: ""
+      20: Error al cargar la foto de perfil # o campo base64 no encontrado
+      21: Extensión de foto de perfil no permitida solo JPG, JPEG o PNG.
+      22: Formato de imagen incorrecto se requiere tipo base64.
+      23: Error de sintaxis en el arreglo de especialidades
+      24: Hay especialidades suministradas que no existen en el sistema.
+      25: Error de sintaxis en las clinicas ingresadas por el doctor.
+      26: Hay clinicas ingresadas que no existen en el sistema.
+      27: Error al cargar la foto del director # o campo base64 no encontrado
+      28: Extensión de foto del director no permitida solo JPG, JPEG o PNG.
+      29: Error al cargar la foto del permiso del ministerio # o campo base64 no encontrado
+      30: Extensión de foto del permiso del ministerio no permitida solo JPG, JPEG o PNG.
+      31: Código de sloncard inválido
+      32: EL código de sloncard ya fue canjeado
+      33: ""
+      34: ""
+      35: ""
+      36: ""
+      37: ""
+      38: ""
+      39: "Error de sintaxis en el arreglo de protocolos"
+      40: ""
+      41: "Credenciales inválidas."
+      42: "Credenciales inválidas. Recuerde que tiene 3 intentos para ingresar al sistema."
+      43: "Token inválido o incorrecto"
+      44: "El usuario no se encuentra autenticado"
+      45: "No puedes tener más de una sesión activa al mismo tiempo"
+      46: "Permisos insuficientes"
+      47: "Respuestas de seguridad inválidas"
+      48: "Las contraseñas suministradas no coinciden entre si"
+      49: "Todos los protocolos deben existir"
+      50: "Problemas para actualizar una tarjeta"
+      51: "Problemas para eliminar"
+      52: "El grupo suministrado no existe en el sistema"
+      53: "El beneficiario ya existe en la base de datos"
+      54: "Ya no se pueden agregar mas beneficiarios al grupo"
+      55: "El beneficiario ya existe en el grupo"
+      56: "El beneficiario no existe en el grupo"
+      57: "Los correos de ambos administradores deben ser distintos"
+      58: "No posees fondos suficientes para emitir la orden"
+      59: "Errores en los tabuladores"
+      60: "Tipo de servicio faltante o no existente"
+      61: "Especialidad faltante o inexistente"
+      62: "Atributo beneficiary_id invalido"
+      63: "Atributo provider_id invalido"
+      64: "El beneficiario no puede aprobar una orden que no ha sido verificado por el proveedor"
+      65: "Orden vacía sin precio"
+      66: "Una orden causada no puede cancelarse"
+      67: "No se puede causar una orden cancelada"
+      68: ""
+      69: ""
+      70: "El arreglo de proveedores o items no puede estar vacío"
+      71: "los provedores o tabuladores no existen"
+      72: ""
+      73: "No estas autorizado para visualizar órdenes"
+      74: "El usuario ingresado no existe o no es un beneficiario"
+      75: "Código de verificación incorrecto"
+      76: "Código de verificación vencido"
+      77: "Saldo insuficiente"
+      78: ""
+      79: "Número de intentos superados. Espera un tiempo aproximado de 10 min para volver intentar"
+      80: "Tipo de acceso incorrecto para los administradores del sistema"
+      81: "El correo o archivo csv no encontrado "
+      82: "El archivo csv no se puede abrir"
+      83: ""
+      84: "El wallet_id solicitado no pertenece a ningún grupo o beneficiario"
+      85: "No has indicado un monto para retirar"
+      86: "Los servicios solicitados no corresponden con la especialidad"
+      87: "No puedes acceder a información que no te corresponde"
+      88: La compra efectuada con Paypal ya fue registrada.
+      89: "El beneficiario no existe en el sistema"
+      90: "Errors en los registros de items específico"
+      91: "EL id de la orden no corresponde con el del item"
+      92: "Error al actualizar las servicios"
+      93: "No puedes modificar información del súper admin"
+      94: "Proveedor no encontrado"
+      95: "Usuario inactivo"
+      96: "Fecha no permitida para estadísticas"
+      97: "No encontrado"
+      98: "Tiempo de sesión culminado"
+      99: "No puedes eliminarte a ti mismo"
+    user:
+      locale: "Atributo locale_id inválido"
+      plan: "Atributo plan_id inválido"
+      saving_level: "Atributo saving_level_id inválido"
+      sq_1: "Atributo sq_1_id inválido"
+      sq_2: "Atributo sq_2_id inválido"
+      blood_type: "Atributo blood_type_id inválido"
+      weight_unit: "Atributo weight_unit_id inválido"
+      size_unit: "Atributo size_unit_id inválido"
+      race: "Atributo gender_id inválido"
+      gender: "Atributo race_id inválido"
+    doctor:
+      specialty: "La subespecialidad no pertenece a la especialidad suministrada"
+      specialty_errors: "Id de especialidad o subespecialidad no encontrado"
+    doctor_clinic:
+      1: Los campos de doctor_id o clinic_id no pueden estar nulos
+      2: El doctor_id suministrado no tiene acceso de Doctor
+      3: El clinic_id suministrado no tiene acceso de Clínica
+    group:
+      locale: "Atributo locale_id inválido"
+      plan: "Atributo plan_id inválido"
+      saving_level: "Atributo saving_level_id inválido"
+    group_admin:
+      1: Los campos de group_id o admin_id no pueden estar nulos
+      2: El admin_id suministrado no tiene acceso de Administrador de Grupo
+    group_beneficiary:
+      1: Los campos de group_id o beneficiary_id no pueden estar nulos
+      2: El beneficiary_id suministrado no tiene acceso de Beneficiario
+    location:
+      1: La clave foranea no puede ser igual a su propio id
+    service_order:
+      1: "Atributo service_type_id inválido"
+      2: "Atributo beneficiary_id inválido"
+      3: "Atributo provider_id inválido"
+  activerecord:
+    errors:
+      models:
+        sponsor:
+          attributes:
+            country:
+              required: "Atributo country_id inválido"
+            email:
+              uniqueness: "El correo suministrado ya existe en el sistema"
+              email_format: "Formato de correo incorrecto"
+              presence: "El correo no puede estar vacío"
+        user:
+          attributes:
+            email:
+              uniqueness: "El correo suministrado ya existe en el sistema"
+              email_format: "Formato de correo incorrecto"
+              presence: "El correo no puede estar vacío"
+            aq_1:
+              presence: "El respuesta de seguridad 1 no puede estar vacío"
+            aq_2:
+              presence: "El respuesta de seguridad 2 no puede estar vacío"
+            password:
+              presence: "El contraseña no puede estar vacío"
+            sq_1:
+              required: "Atributo sq_1_id inválido"
+            sq_2:
+              required: "Atributo sq_2_id inválido"
+            locale:
+              required: "Atributo locale_id inválido"
+            country:
+              required: "Atributo country_id inválido"
+            state:
+              required: "Atributo state_id inválido"
+        user_admin_one:
+          attributes:
+            email:
+              uniqueness: "El correo suministrado para el administrador 1 ya existe en el sistema"
+              email_format: "Formato de correo de administrador 1 incorrecto"
+              presence: "El correo del administrador 1 no puede estar vacío"
+        user_admin_two:
+          attributes:
+            email:
+              uniqueness: "El correo suministrado para el administrador 2 ya existe en el sistema"
+              email_format: "Formato de correo de administrador 2 incorrecto"
+              presence: "El correo del administrador 2 no puede estar vacío"
+        beneficiary:
+          attributes:
+            saving_level:
+              required: "Atributo saving_level_id inválido"
+            blood_type:
+              required: "Atributo blood_type_id inválido"
+            race:
+              required: "Atributo race_id inválido"
+            weight_unit:
+              required: "Atributo weight_unit_id inválido"
+            size_unit:
+              required: "Atributo size_unit_id inválido"
+            gender:
+              required: "Atributo gender_id inválido"
+        group:
+          attributes:
+            saving_level:
+              required: "Atributo saving_level_id inválido"
+            plan:
+              required: "Atributo plan_id inválido"
+            wallet:
+              required: "Atributo wallet_id inválido"
+            locale:
+              required: "Atributo locale_id inválido"
+            country:
+              required: "Atributo country_id inválido"
+            state:
+              required: "Atributo state_id inválido"
+        service_order:
+          attributes:
+            service_type:
+              required: "Atributo service_type_id inválido"
+            specialty:
+              required: "Atributo specialty_id inválido"
+            beneficiary:
+              required: "Atributo beneficiary_id inválido"
+            provider:
+              required: "Atributo provider_id inválido"
+        item:
+          attributes:
+            tabulator: 
+              required: "Atributo tabulator_id inválido"
+            service_order:
+              required: "Atributo service_order_id inválido"
+        article:
+          attributes:
+            locale:
+              required: "Atributo locale_id Atributo"
+        subscriber:
+          attributes:
+            email:
+              uniqueness: "El correo suministrado ya existe en el sistema"
+              email_format: "Formato de correo incorrecto"
+              presence: "El correo no puede estar vacío"
+        protocol_wallet:
+          attributes:
+            wallet:
+              required: "Atributo wallet_id inválido"
+            protocol:
+              required: "Atributo protocl_id inválido"
+        specialty:
+          attributes:
+            specialty:
+              required: "Atributo specialty_id inválido"
+        transac:
+          attributes:
+            zelle:
+              email_format: "Formato de correo incorrecto"

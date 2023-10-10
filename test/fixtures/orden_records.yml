@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  service_orden: one
+  record: one
+  price: 9.99
+  title: MyString
+  description: MyText
+
+two:
+  service_orden: two
+  record: two
+  price: 9.99
+  title: MyString
+  description: MyText

@@ -1,0 +1,27 @@
+<% if @suggestion_type != nil %>
+	<div class="color-primary">
+		<h4><b><%= t('model_mailer.welcome.type') %> </b></h4>
+	</div>
+	<div class="color-gray">
+		<p><%= @suggestion_type %></p>
+	</div>
+<% end %>
+
+<div class="color-primary">
+	<h4><b><%= t('model_mailer.welcome.email') %> </b></h4>
+</div>
+<div class="color-gray">
+	<p><%= @email %></p>
+</div>
+<div class="color-primary">
+	<h4><b><%= t('model_mailer.request.name') %></b></h4>
+</div>
+<div class="color-gray">
+	<p><%= @name %></p>
+</div>
+<div class="color-primary">
+	<h4><b><%= t('model_mailer.request.text') %></b></h4>
+</div> 
+<div class="color-gray">
+	<p><%= @text %></p>
+</div>

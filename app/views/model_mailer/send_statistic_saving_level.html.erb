@@ -1,0 +1,61 @@
+<% if @variable %>
+	<div class="color-primary">
+		<h4><b><%= t('model_mailer.statistic.upgrade') %></b></h4>
+	</div>
+<% else%>
+	<div class="color-primary">
+		<h4><b><%= t('model_mailer.statistic.downgrade') %></b></h4>
+	</div>
+<%end %>
+<div class="color-primary">
+	<h4><b><%= t('model_mailer.welcome.saving_level') %></b></h4>
+</div>
+<% if @saving_level.name_en == "Bronze" %> 
+	<div class="color-gray">
+		<p><%= t('model_mailer.saving_level.level1') %></p>
+	</div>
+<% elsif @saving_level.name_en == "Silver" %> 
+	<div class="color-gray">
+		<p><%= t('model_mailer.saving_level.level2') %></p>
+	</div>
+<% elsif @saving_level.name_en == "Gold" %>
+	<div class="color-gray">
+		<p><%= t('model_mailer.saving_level.level3') %></p>
+	</div>
+<% elsif @saving_level.name_en == "Platinum" %>
+	<div class="color-gray">
+		<p><%= t('model_mailer.saving_level.level4') %></p>
+	</div>
+<% elsif @saving_level.name_en == "Black" %>
+	<div class="color-gray">
+		<p><%= t('model_mailer.saving_level.level5') %></p>
+	</div>
+<% end %>
+<% if @count %>
+	<div class="color-primary">
+		<h4><b><%= t('model_mailer.transaction.beneficiary_count') %></b></h4>
+	</div>
+	<div class="color-gray">
+		<p> <%= @count %></p>
+	</div>
+	<div class="color-primary">
+		<h4><b><%= t('model_mailer.transaction.amount') %></b></h4>
+	</div>
+	<div class="color-gray">
+		<p>$<%= @amount %></p>
+	</div>
+	<div class="color-primary">
+		<h4><b><%= t('model_mailer.transaction.total') %></b></h4>
+	</div>
+	<div class="color-gray">
+		<p>$<%= @count*@amount %></p>
+	</div>
+
+<% else %>
+	<div class="color-primary">
+		<h4><b><%= t('model_mailer.transaction.amount') %></b></h4>
+	</div>
+	<div class="color-gray">
+		<p>$<%= @amount %></p>
+	</div>
+<%end %>

@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  service_type: one
+  suggested_price: 9.99
+  name: MyString
+  description: MyText
+
+two:
+  service_type: two
+  suggested_price: 9.99
+  name: MyString
+  description: MyText

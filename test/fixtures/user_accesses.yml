@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  access: one
+  user: one
+  is_active: false
+  visibility: false
+  wallet: one
+  auth_toke: MyString
+
+two:
+  access: two
+  user: two
+  is_active: false
+  visibility: false
+  wallet: two
+  auth_toke: MyString

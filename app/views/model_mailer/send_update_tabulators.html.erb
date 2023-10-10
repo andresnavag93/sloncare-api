@@ -1,0 +1,23 @@
+<div class="color-primary">
+	<h4><b><%= t('model_mailer.service_tabulator.service') %> </b></h4>
+</div>
+<div class="color-gray">
+	<p><%= @service %></p>
+</div>
+
+<div class="color-primary">
+	<h4><b><%= t('model_mailer.service_tabulator.update') %> </b></h4>
+</div>
+<div class="color-gray">
+	<% for code in @codes_update do %>
+		<p><%= code %></p>
+	<% end %>
+</div>
+<div class="color-primary">
+	<h4><b><%= t('model_mailer.service_tabulator.not_found') %> </b></h4>
+</div>
+<div class="color-gray">
+	<% for code in @codes_not_found  do %>
+		<p><%= code %></p>
+	<% end %>
+</div>

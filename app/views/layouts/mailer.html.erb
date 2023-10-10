@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <style>
+      img {
+        border: none;
+        -ms-interpolation-mode: bicubic;
+        max-width: 100%; 
+      }
+      body {
+        background-color: #f6f6f6;
+        font-family: sans-serif;
+        -webkit-font-smoothing: antialiased;
+        font-size: 14px;
+        line-height: 1.4;
+        margin: 0;
+        padding: 0;
+        -ms-text-size-adjust: 100%;
+        -webkit-text-size-adjust: 100%; 
+      }
+      table {
+        border-collapse: separate;
+        mso-table-lspace: 0pt;
+        mso-table-rspace: 0pt;
+        width: 100%; }
+        table td {
+          font-family: sans-serif;
+          font-size: 14px;
+          vertical-align: top; 
+      }
+      /* -------------------------------------
+          BODY & CONTAINER
+      ------------------------------------- */
+      .body {
+        background-color: #f6f6f6;
+        width: 100%;
+        padding: 20px; 
+      }
+
+      .container {
+        display: block;
+        Margin: 0 auto !important;
+        /* makes it centered */
+        max-width: 580px;
+        width: 580px; 
+      }
+
+      .content {
+        box-sizing: border-box;
+        display: block;
+        Margin: 0 auto;
+        max-width: 580px;
+        padding: 10px; 
+      }
+      .img-slon-care {
+        width: 200px;
+        display: block;
+        float: right;
+      }
+      /* -------------------------------------
+          HEADER, FOOTER, MAIN
+      ------------------------------------- */
+      .main {
+        background: #ffffff;
+        padding-top: 0px;
+        border-radius: 30px;
+        width: 100%; 
+      }
+      .wrapper {
+        box-sizing: border-box;
+        padding: 20px; 
+      }
+      .content-block {
+        padding-bottom: 10px;
+        padding-top: 10px;
+      }
+      .img-slon-care {
+        width: 200px;
+        display: block;
+        float: right;
+      }
+      .border-logo {
+        border-bottom: 2px solid rgb(0,173,165);
+        margin-bottom: 20px;
+      }
+      .color-primary {
+        color: rgb(0,66,131);
+      }
+      .color-secondary {
+        color: rgb(0,173,165);
+      }
+      .color-gray {
+        color: gray;
+      }
+      .position-right {
+        float: right;
+        margin-top: 10px;
+      }
+      .hr-top {
+        border-top: 2px solid rgb(0,173,165);
+      }
+
+      /* -------------------------------------
+          RESPONSIVE AND MOBILE FRIENDLY STYLES
+      ------------------------------------- */
+      @media only screen and (max-width: 620px) {
+        table[class=body] h1 {
+          font-size: 28px !important;
+          margin-bottom: 10px !important; 
+        }
+        table[class=body] p,
+        table[class=body] td,
+        table[class=body] a {
+          font-size: 16px !important; 
+        }
+        table[class=body] .wrapper {
+          padding: 10px !important; 
+        }
+        table[class=body] .content {
+          padding: 0 !important; 
+        }
+        table[class=body] .container {
+          padding: 0 !important;
+          width: 100% !important; 
+        }
+        table[class=body] .main {
+          border-left-width: 0 !important;
+          border-radius: 0 !important;
+          border-right-width: 0 !important; 
+        }
+        table[class=body] .btn table {
+          width: 100% !important; 
+        }
+        table[class=body] .btn a {
+          width: 100% !important; 
+        }
+        table[class=body] .img-responsive {
+          height: auto !important;
+          max-width: 100% !important;
+          width: auto !important; 
+        }
+      }
+      /* -------------------------------------
+          PRESERVE THESE STYLES IN THE HEAD
+      ------------------------------------- */
+      @media all {
+        .ExternalClass {
+          width: 100%; 
+        }
+        .ExternalClass,
+        .ExternalClass p,
+        .ExternalClass span,
+        .ExternalClass font,
+        .ExternalClass td,
+        .ExternalClass div {
+          line-height: 100%; 
+        }
+        .apple-link a {
+          color: inherit !important;
+          font-family: inherit !important;
+          font-size: inherit !important;
+          font-weight: inherit !important;
+          line-height: inherit !important;
+          text-decoration: none !important; 
+        }
+        .btn-primary table td:hover {
+          background-color: #34495e !important; 
+        }
+        .btn-primary a:hover {
+          background-color: #34495e !important;
+          border-color: #34495e !important; 
+        } 
+      }
+    </style>
+  </head>
+  <body class="">
+    <table border="0" cellpadding="0" cellspacing="0" class="body">
+      <tr>
+        <td class="container">
+          <div class="content main">
+            <table class="">
+              <tr>
+                <td class="wrapper border-logo">
+                    <img class="img-slon-care" src="https://s3.amazonaws.com/media.sloncare/logo-slon-care.png" />
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <%= yield %>
+                </td>
+              </tr>
+              <tr>
+                <td class="wrapper hr-top">
+                    <small class="position-right color-gray">Powered by Slon Care | <a href="http://test-slon-care.s3-website.us-east-2.amazonaws.com/" class="color-secondary">www.sloncare.com</a></small>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

@@ -1,0 +1,20 @@
+<div class="color-primary">
+	<h4><b><%= t('model_mailer.purchase.amount') %> </b></h4>
+</div>
+<div class="color-gray">
+	<p>$<%= @code.price %></p>
+</div>
+<div class="color-primary">
+	<h4><b><%= t('model_mailer.purchase.code') %></b></h4>
+</div>
+<div class="color-gray">
+	<p><%= @code.code %> </p>
+</div>
+<div class="color-primary">
+	<h4><b><%= t('model_mailer.purchase.login') %></b></h4>
+</div> 
+<div class="color-gray">
+	<p><%= link_to @login_path, @login_path %></p>
+</div>
+
+	
